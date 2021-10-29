@@ -1,0 +1,1 @@
+This teamplate will create a NSG and add it into an existing Subnet.
