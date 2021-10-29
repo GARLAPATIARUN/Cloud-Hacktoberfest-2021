@@ -1,0 +1,1 @@
+This template will create a NSG,vNet,Subnet in azure.
