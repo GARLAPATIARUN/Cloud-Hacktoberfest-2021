@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "virtualNetworkResourceGroupName": {
+      "value": null
+    },
+    "virtualNetworkName": {
+      "value": null
+    },
+    "subnetName": {
+      "value": "default"
+    },
+    "location": {
+      "value": "[resourceGroup().location]"
+    },
+    "_artifactsLocation": {
+      "value": "[deployment().properties.templateLink.uri]"
+    },
+    "_artifactsLocationSasToken": {
+      "value": null
+    }
+  }
+}
