@@ -1,0 +1,1 @@
+This template will create a storage account with all the default network vaules.
